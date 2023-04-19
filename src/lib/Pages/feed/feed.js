@@ -1,9 +1,9 @@
 export default () => {
   const container = document.createElement('div');
   const template = `
-
+  
   <img src='./lib/Pages/imagens/LogoAirFryer.png' class='logo'>
-  <nav>
+  <nav class='menu-hamburguer'>
   <ul>
   <li>
   <a href='/#publicar'>Home</a>
@@ -12,19 +12,34 @@ export default () => {
   <a href='/#feed'>Publicações</a>
   </li>
   <li>
-  <a href='/#login'>Sair</a><img src='./lib/Pages/imagens/sair.png'>
+  <a href='/#login'>Sair</a>
+  
   </li>
   </u>
   </nav>
 
-  <h1>Publicações</h1>
+  <div class='container'>
+  
+  <p>Publicações</p>
 
-  <textarea id='feed'>
+  <span>Apelido</span>
+  <div class='postagens'></div>
+  <i class='fa-regular fa-heart'></i>
+  <i class='fa-regular fa-pen-to-square'></i>
+  <i class='fa-regular fa-trash-can'></i>
 
-  </textarea>
-  <img src='./lib/Pages/imagens/like.png'>
-  <img src='./lib/Pages/imagens/editar.svg'>
-  <img src='./lib/Pages/imagens/delete.png'>
+  <span>Apelido</span>
+  <div class='postagens'></div>
+  <i class='fa-regular fa-heart'></i>
+  <i class='fa-regular fa-pen-to-square'></i>
+  <i class='fa-regular fa-trash-can'></i>
+
+  <span>Apelido</span>
+  <div class='postagens'></div>
+  <i class='fa-regular fa-heart'></i>
+  <i class='fa-regular fa-pen-to-square'></i>
+  <i class='fa-regular fa-trash-can'></i>
+  </div>
 
   `;
   container.innerHTML = template;

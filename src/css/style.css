@@ -9,3 +9,11 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    background: #F0F8FF;
+    /* justify-content: center; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+    font-style:normal;
+}
+

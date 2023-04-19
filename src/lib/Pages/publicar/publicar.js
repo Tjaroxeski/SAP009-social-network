@@ -3,11 +3,15 @@ export default () => {
   const template = `
    
  <h1> iorkut </h1>
- <img src='./lib/Pages/imagens/LogoAirFryer.png' class='logo'> 
- <p> Comunidade Receitas Air Fryer</p>
+ 
+ <img src='./lib/Pages/imagens/LogoAirFryer.png' class='logo'>
+ <section class='textos'>
+ <p id='comunidade'> Comunidade Receitas Air Fryer</p>
+ <div class='descriçao'>
  <p> Comunidade feita para todas as pessoas que amam a praticidade de suas Air Fryers<p>
  <p> Compatilhe e tenha acesso as mais variadas receitas<p> 
- <label for='receitas'>  </label>
+ </div>
+ </section> 
 
  <textarea id='escrever-receita' name='publicar' rows='10' cols='45' placeholder='Publique aqui sua receita'>
  </textarea> 

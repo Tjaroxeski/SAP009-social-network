@@ -1,0 +1,31 @@
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    max-width:100px;
+    max-height:100px;
+    width: auto;
+    height: auto;
+    padding: 8px;
+    border: 3px;
+}
+
+
+#comunidade{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content:flex-start;
+    font-style: inherit;
+    text-align: right;
+    margin-top: -100px;
+    margin-left: 150px;
+  
+}
+.descriçao {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: brown;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
