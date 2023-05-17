@@ -50,7 +50,7 @@ export default () => {
     if (nomeCompleto.value === '' || apelido.value === '' || email.value === '' || senha.value === '') {
       alert('Por favor, preencha todos os campos.');
     } else {
-      criarUsuario(nomeCompleto.value, apelido.value, email.value, senha.value)
+      criarUsuario(nomeCompleto.value, email.value, senha.value)
         .then(() => {
           alert('Cadastro realizado com sucesso!');
           window.location.hash = '#feed';
