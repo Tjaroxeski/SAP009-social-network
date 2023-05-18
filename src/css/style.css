@@ -17,3 +17,59 @@ body{
 .footer p {
     text-align: center;
 }
+ .footer-names {
+  background: white;
+  max-width: 100%; 
+  height: 100%; 
+  padding: 12px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  line-height: 1.8;
+  align-items: center;
+}
+
+.page-up {
+  position: absolute;
+  left: 70px;
+  font-size: 25px;
+}
+
+.page-up i {
+  color:#0b0808
+}
+
+.footer-content h1 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.footer-content p {
+  font-size: 16px;
+}
+
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.socials li {
+  margin: 0 40px;
+}
+.socials a {
+  text-decoration: none;
+  color: #050303;
+}
+.socials a i {
+  font-size: 1.1rem;
+  transition: color .4s ease;
+}
+
+.socials a:hover i {
+  color: aqua;
+}

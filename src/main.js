@@ -14,6 +14,9 @@ const init = () => {
       case '#feed':
         main.appendChild(feed());
         break;
+      case '#top':
+        main.appendChild(feed());
+        break;
       case '#cadastro':
         main.appendChild(cadastro());
         break;

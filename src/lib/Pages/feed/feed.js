@@ -7,7 +7,6 @@ import {
   deletePost,
 } from '../../../firebaseServices/fireStore.js';
 
-//import logomobile from '../../../images/logo/logomobile.png';
 import airfryerfeed from '../../../images/logo/airfryerfeed.png';
 
 export default () => {
@@ -27,7 +26,7 @@ export default () => {
   <p class='texto-comunidade'>Comunidade feita para todas as pessoas que amam a praticidade de suas Air Fryers</p>
  
   <img class='airfryerfeed' src='${airfryerfeed}' alt=''>
-  
+  <div class="alinhamento">
   <section class='caixa-publicar'>
   <p class='texto-compartilhe'>Compatilhe e tenha acesso as mais variadas receitas</p> 
   <textarea id='escrever-receita' name='publicar' rows='5' cols='40' placeholder='Publique aqui sua receita'></textarea> 

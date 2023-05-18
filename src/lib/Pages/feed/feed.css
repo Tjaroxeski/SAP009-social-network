@@ -4,9 +4,16 @@
   margin-bottom: 10px;
   margin-top: 20px;
 }
+.titulo-header-desktop {
+  color: #F84ADC;
+  margin-left: 30px;
+  font-size: 100px;
+  font-weight: bolder;
+}
 .airfryerfeed {
-  margin-left: -80px;
-  margin-top: 50px;
+  margin-left: -30px;
+  margin-top: -20px;
+  margin-bottom: -10px;
   margin-right: 200px;
   width: 200px;
   height: 200px;
@@ -15,23 +22,14 @@
   text-align: center;
   margin-bottom: 10px;
 }
-/* .airfryerfeed {
-  margin-left: -80px;
-  margin-top: 50px;
-  margin-right: 200px;
-  width: 200px;
-  height: 200px;
-} */
 .texto-comunidade {
   text-align: center;
   margin-bottom: 20px;
 }
-
 .texto-compartilhe {
   text-align: center;
   margin-bottom: 20px;
 }
-
 .caixa-publicar {
   width: 300px;
   margin: 0 auto;
@@ -40,39 +38,29 @@
   background-color: #ffffff;
   margin-bottom: 20px;
 }
-
 .publicar-botao {
   margin-top: 20px;
 }
-
-/* .airfryerfeed {
-  display:none;
-} */
-
 .postagens {
   width: 300px;
   margin: 0 auto;
   margin-bottom: 10px;
 }
-
 .areaPostado {
   border: 1px solid #ccc;
   background-color: #d9ebfa;
   margin-bottom: 10px;
   padding: 10px;
 }
-
-.txt-area-postado {
+/* .txt-area-postado {
   background-color: #ffffff;
   width: 67vw;
   height: 20vw;
   font-size: 16px;
-}
-
+} */
 .fa-regular.fa-pen-to-square {
   margin-right: 110px;
 }
-
 .fa-regular.fa-trash-can {
   margin-right: 111px;
 }
@@ -88,11 +76,16 @@
   height: 30%;
   font-size: 16px;
 }
-
-
+.footer-names{
+  background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+}
 
 @media (min-width: 1200px) {
-
   .header-feed  {
     background-color: #ffffff;
     display: flex;
@@ -100,15 +93,14 @@
     align-items: center;
     width: 100%;
     height: 150px;
+    gap: 70%;
   }
-
   .titulo-header-desktop {
     color: #F84ADC;
     margin-left: 30px;
     font-size: 100px;
     font-weight: bolder;
   }
-
   .sair {
     margin-right: 20px;
     margin-left: auto;
@@ -125,70 +117,58 @@
     font-size: medium;
     font-weight: bold;
   }
-/* 
-  .logo-mobile {
-    display: none;
-  } */
-
-  .airfryerfeed {
-    margin-left: 80px;
-    margin-top: 80px;
-    margin-bottom: 45px;
+  /* .airfryerfeed {
+    margin-left: 100px;
+    margin-top: -100px;
+    margin-bottom: -50px;
     width: 200px;
     height: 200px;
-  }
-
+  } */
   .titulo-feed {
     margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
   }
-  
-  .membros {
-    text-align: center;
-    margin-bottom: 10px;
-  }
-  
-  .texto-comunidade {
-    text-align: center;
-    margin-bottom: 20px;
-    margin-left: 375px;
-  }
-  
   .texto-compartilhe {
     text-align: center;
     margin-bottom: 20px;
   }
-  
+  .alinhamento{
+    display: flex;
+    flex-direction: column;
+    flex: column;
+    justify-content:last baseline;
+    align-content: center;
+    column-gap: 10px;
+    width: -400px;
+    height: -300px; 
+  }
   .caixa-publicar {
+    display: block;
     border: 1px solid #ccc;
-    width: 29%;
-    margin: 0 auto;
+    width: 30%;
+    height: 100%;  
     margin-bottom: 10px;
     padding: 20px;
     border-radius: 5px;
-    background-color: rgb(255, 255, 255);
-    align-items: center;
-    margin-left: 600px;
-    
-   
+    background-color: rgb(255, 255, 255); 
   }
-  
   .publicar-botao {
     margin-top: 20px;
   }
-
   .postagens {
-    width: 29%;
+    width: 30%;
+    height: 100%;
     margin: 0 auto;
     margin-bottom: 10px;
-  }
-  
+   } 
   .areaPostado {
     border: 1px solid #ccc;
     background-color: #d9ebfa;
     width: 30vw;
     margin-bottom: 10px;
   }
-  
   .txt-area-postado {
     resize: none;
     background-color: #ffffff;
@@ -196,7 +176,7 @@
     height: 5vw;
     font-size: 16px;
   }
-  
+
   .fa-regular.fa-pen-to-square {
     margin-right: 110px;
     cursor: pointer;
@@ -214,6 +194,18 @@
     resize: none;
     height: 80%;
     width: 100%;
+  }
+  .footer-names{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: stretch;
+    row-gap: 30px; */
+    }
+  .footer-names p{
+    justify-content: space-around;
+    align-items: stretch;
+    row-gap: 30px;
   }
   
 }

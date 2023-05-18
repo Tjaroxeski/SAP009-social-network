@@ -82,17 +82,16 @@ describe('criarUsuario', () => {
     createUserWithEmailAndPassword.mockResolvedValueOnce(mockUserCredential);
     updateProfile.mockResolvedValueOnce();
 
-    const nomeCompleto = 'nomecompletoteste';
-    // const Apelido = 'apelidoteste';
+    const displayName = 'nomecompletoteste';
     const email = 'emailteste@email.com';
     const senha = 'senhateste';
-    await criarUsuario(nomeCompleto, email, senha);
+    await criarUsuario(displayName, email, senha);
 
     expect(createUserWithEmailAndPassword).toHaveBeenCalledTimes(1);
     expect(createUserWithEmailAndPassword).toHaveBeenCalledWith(auth, email, senha);
     expect(updateProfile).toHaveBeenCalledTimes(1);
     expect(updateProfile).toHaveBeenCalledWith(mockUserCredential.user, {
-      nomeCompleto,
+      displayName,
     });
   });
 });
