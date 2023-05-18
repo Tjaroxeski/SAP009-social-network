@@ -7,7 +7,7 @@ import {
   deletePost,
 } from '../../../firebaseServices/fireStore.js';
 
-import logomobile from '../../../images/logo/logomobile.png';
+//import logomobile from '../../../images/logo/logomobile.png';
 import airfryerfeed from '../../../images/logo/airfryerfeed.png';
 
 export default () => {
@@ -15,7 +15,7 @@ export default () => {
   const template = `
 
   <header class='header-feed'>
-  <img class='logo-mobile' src='${logomobile}' alt=''>
+  
   <p class='frase1-login'> Sua comunidade de trocas de receitas </p>
   <p class='frase2-login'>para Air Fryer</p>
   <p class='titulo-header-desktop'>iorkut</p>

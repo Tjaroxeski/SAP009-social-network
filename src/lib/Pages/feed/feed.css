@@ -4,12 +4,24 @@
   margin-bottom: 10px;
   margin-top: 20px;
 }
-
+.airfryerfeed {
+  margin-left: -80px;
+  margin-top: 50px;
+  margin-right: 200px;
+  width: 200px;
+  height: 200px;
+}
 .membros {
   text-align: center;
   margin-bottom: 10px;
 }
-
+/* .airfryerfeed {
+  margin-left: -80px;
+  margin-top: 50px;
+  margin-right: 200px;
+  width: 200px;
+  height: 200px;
+} */
 .texto-comunidade {
   text-align: center;
   margin-bottom: 20px;
@@ -33,9 +45,9 @@
   margin-top: 20px;
 }
 
-.airfryerfeed {
-  display: none;
-}
+/* .airfryerfeed {
+  display:none;
+} */
 
 .postagens {
   width: 300px;
@@ -64,6 +76,19 @@
 .fa-regular.fa-trash-can {
   margin-right: 111px;
 }
+#escrever-receita{
+  resize: none;
+  height: 80%;
+  width: 100%;
+}
+.txt-area-postado {
+  resize: none;
+  background-color: #ffffff;
+  width: 98%;
+  height: 30%;
+  font-size: 16px;
+}
+
 
 
 @media (min-width: 1200px) {
@@ -100,15 +125,17 @@
     font-size: medium;
     font-weight: bold;
   }
-
+/* 
   .logo-mobile {
     display: none;
-  }
+  } */
 
   .airfryerfeed {
-    margin-left: -80px;
-    margin-top: 50px;
-    margin-right: 200px;
+    margin-left: 80px;
+    margin-top: 80px;
+    margin-bottom: 45px;
+    width: 200px;
+    height: 200px;
   }
 
   .titulo-feed {
