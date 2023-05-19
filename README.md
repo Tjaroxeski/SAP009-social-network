@@ -29,7 +29,7 @@ determinadas tags ou popularidade, mais recente ou mais comentado.
 
 # iorkut - comunidade de receitas de airfryer
 
-<b>Acesse o link do projeto aqui: "colocar link deploy"</b>
+<b>Acesse o link do projeto aqui: https://social-network-i.web.app</b>
 
 Terceiro projeto realizado durante o Bootcamp da Laboratória. O objetivo principal alcançado foi desenvolver uma rede social SPA responsiva, partindo do principio do conceito de Mobile first.  
 
