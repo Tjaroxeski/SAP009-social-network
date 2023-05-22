@@ -1,6 +1,7 @@
 import { login, logingoogle } from '../../../firebaseServices/firebaseAuth';
 import logomobile from '../../../images/logo/logomobile.png';
 import logodesktop from '../../../images/logo/logodesktop.png';
+import logogoogle from '../../../images/google.png';
 
 export default () => {
   const container = document.createElement('div');
@@ -22,7 +23,7 @@ export default () => {
  <input type ='password' name='password' id='senha-login' placeholder='Senha' autocomplete='current-password'>
  <button type='button' class='login-botao' id='login-botao'> Entrar </button>
  <p> Se preferir, entre com sua conta Google: </p>
- <img src='../../../images/google.png' class='google-botao' id='google-botao'>
+ <img src='${logogoogle}' class='google-botao' id='google-botao'>
  <p class='texto3'> Novo por aqui? Crie agora sua conta! <p>
  <a href='#cadastro'><button type='button' class='cadastro-botao' id='cadastro-botao'> Cadastrar </button></a>
  </form>

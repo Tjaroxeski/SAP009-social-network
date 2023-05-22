@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.formulario-login {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+}.frase1-login {
+  text-align: center;
+  font-weight: bold;
+}.frase2-login {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}.texto1 {
+  margin-bottom: 20px;
+  font-weight: bold;
+}.login-botao {
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}.google-botao {
+  width: 40px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}.cadastro-botao {
+  margin-top: 10px;
+}.texto3 {
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+  padding-top: 10px;
+
+}.logo-desktop{
+  display: none;
+}@media (min-width: 900px) {
+  .logo-mobile {
+    display: none;
+  }
+
+  .frase1-login {
+    display: none;
+  }
+
+  .frase2-login {
+    display: none;
+  }
+
+  .pagina-login {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo-desktop {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-right: -100px;
+  }
+
+  .formulario-login {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+}.formulario-cadastro {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+}.nome-formulario-cadastro {
+  margin-bottom: 20px;
+  font-weight: bold;
+}input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 16px;
+}button {
+  background-color: #d1e5f7;
+  color: rgb(7, 6, 6);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Roboto", Arial, sans-serif;
+  font-style: normal;
+  font-size: medium;
+  font-weight: bold;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}button:hover {
+  background-color: #a3d0f7;
+}@media (min-width: 900px) {
+    .logo-mobile {
+      display: none;
+    }
+   
+    .pagina-cadastro {
+      display: flex;
+      align-items: center;
+    }
+  
+    .logo-desktop {
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 100px;
+      margin-top: 50px;
+      margin-right: -100px
+    }
+  
+    .formulario-cadastro {
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }.titulo-feed {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}.titulo-header-desktop {
+  color: #F84ADC;
+  margin-left: 30px;
+  font-size: 100px;
+  font-weight: bolder;
+}.airfryerfeed {
+  margin-left: -30px;
+  margin-top: -20px;
+  margin-bottom: -10px;
+  margin-right: 200px;
+  width: 200px;
+  height: 200px;
+}.membros {
+  text-align: center;
+  margin-bottom: 10px;
+}.texto-comunidade {
+  text-align: center;
+  margin-bottom: 20px;
+}.texto-compartilhe {
+  text-align: center;
+  margin-bottom: 20px;
+}.caixa-publicar {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}.publicar-botao {
+  margin-top: 20px;
+}.postagens {
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}.areaPostado {
+  border: 1px solid #ccc;
+  background-color: #d9ebfa;
+  margin-bottom: 10px;
+  padding: 10px;
+}/* .txt-area-postado {
+  background-color: #ffffff;
+  width: 67vw;
+  height: 20vw;
+  font-size: 16px;
+} */.fa-regular.fa-pen-to-square {
+  margin-right: 110px;
+}.fa-regular.fa-trash-can {
+  margin-right: 111px;
+}#escrever-receita{
+  resize: none;
+  height: 80%;
+  width: 100%;
+}.txt-area-postado {
+  resize: none;
+  background-color: #ffffff;
+  width: 98%;
+  height: 30%;
+  font-size: 16px;
+}.footer-names{
+  background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+}@media (min-width: 1200px) {
+  .header-feed  {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    gap: 70%;
+  }
+  .titulo-header-desktop {
+    color: #F84ADC;
+    margin-left: 30px;
+    font-size: 100px;
+    font-weight: bolder;
+  }
+  .sair {
+    margin-right: 20px;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: 20px;
+    background-color: #d1e5f7;
+    color: rgb(7, 6, 6);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Roboto", Arial, sans-serif;
+    font-style: normal;
+    font-size: medium;
+    font-weight: bold;
+  }
+  /* .airfryerfeed {
+    margin-left: 100px;
+    margin-top: -100px;
+    margin-bottom: -50px;
+    width: 200px;
+    height: 200px;
+  } */
+  .titulo-feed {
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+  }
+  .texto-compartilhe {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .alinhamento{
+    display: flex;
+    flex-direction: column;
+    flex: column;
+    justify-content:last baseline;
+    align-content: center;
+    column-gap: 10px;
+    width: -400px;
+    height: -300px; 
+  }
+  .caixa-publicar {
+    display: block;
+    border: 1px solid #ccc;
+    width: 30%;
+    height: 100%;  
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255); 
+  }
+  .publicar-botao {
+    margin-top: 20px;
+  }
+  .postagens {
+    width: 30%;
+    height: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+   } 
+  .areaPostado {
+    border: 1px solid #ccc;
+    background-color: #d9ebfa;
+    width: 30vw;
+    margin-bottom: 10px;
+  }
+  .txt-area-postado {
+    resize: none;
+    background-color: #ffffff;
+    width: 30vw;
+    height: 5vw;
+    font-size: 16px;
+  }
+
+  .fa-regular.fa-pen-to-square {
+    margin-right: 110px;
+    cursor: pointer;
+  }
+  
+  .fa-regular.fa-trash-can {
+    margin-right: 111px;
+    cursor: pointer;
+  }
+
+  .fa-regular.fa-floppy-disk {
+    cursor: pointer;
+  }
+  #escrever-receita{
+    resize: none;
+    height: 80%;
+    width: 100%;
+  }
+  .footer-names{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: stretch;
+    row-gap: 30px; */
+    }
+  .footer-names p{
+    justify-content: space-around;
+    align-items: stretch;
+    row-gap: 30px;
+  }
+  
+}* {
+    margin: 0;
+    padding: 0;
+}body{
+    background: #F0F8FF;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-style: normal;
+}.footer p {
+    text-align: center;
+}.footer-names {
+  background: white;
+  max-width: 100%; 
+  height: 100%; 
+  padding: 12px;
+}.footer-content {
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  line-height: 1.8;
+  align-items: center;
+}.page-up {
+  position: absolute;
+  left: 70px;
+  font-size: 25px;
+}.page-up i {
+  color:#0b0808
+}.footer-content h1 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-transform: capitalize;
+}.footer-content p {
+  font-size: 16px;
+}.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}.socials li {
+  margin: 0 40px;
+}.socials a {
+  text-decoration: none;
+  color: #050303;
+}.socials a i {
+  font-size: 1.1rem;
+  transition: color .4s ease;
+}.socials a:hover i {
+  color: aqua;
+}
